@@ -15,9 +15,6 @@ class Handler(FileSystemEventHandler):
         def on_moved(self, event):
                 print strftime("%Y-%m-%d %H:%M:%S", gmtime()), event
 
-        def on_moved(self, event):
-                print strftime("%Y-%m-%d %H:%M:%S", gmtime()), event
-
 
 
 observer = Observer()
